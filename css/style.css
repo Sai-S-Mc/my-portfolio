@@ -51,11 +51,31 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
-.email-link{
+.email-link {
   font-size: 28px;
   color: var(--primary-color);
   text-decoration: none;
 }
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 576px) {
+  .above-heading {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .project-description .primary-link {
+    display:block;
+    margin: 0 20px;
+  }
 }
