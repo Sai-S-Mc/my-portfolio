@@ -24,10 +24,10 @@ header .navigation-links {
   justify-content: center;
   margin: 40px auto;
 }
-.navigation-links a {
+.navigation-link {
   margin: 20px;
 }
-.navigation-links a:hover {
+.navigation-link:hover {
   color: #0a58ca;
 }
 .primary-link {
@@ -50,4 +50,12 @@ h2 {
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+.email-link{
+  font-size: 28px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.email-link:hover {
+  text-decoration: underline;
 }
